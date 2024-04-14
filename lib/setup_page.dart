@@ -30,9 +30,11 @@ class _SetupPageState extends State<SetupPage> {
       gameState.clearUsers();
     }
 
-    var buttonStyle = ButtonStyle(
-                      side: MaterialStateProperty.all(const BorderSide(color: Colors.blue, width: 2)));
-                      
+    void startGame() {
+      gameState.startGame();
+      Navigator.pushNamed(context, '/gameSession');
+    }
+
     return Scaffold(
         appBar: AppBar(
           backgroundColor: Theme.of(context).colorScheme.inversePrimary,
@@ -53,25 +55,20 @@ class _SetupPageState extends State<SetupPage> {
                     ),
                   ),
                 ),
-                TextButton(
+                ElevatedButton(
                   onPressed: assignNewUser,
-                  style: buttonStyle,
                   child: const Text("Assign"),
                 ),
               ],
             ),
-            TextButton(
-              onPressed: clearUsers,
-              style: buttonStyle,
-              child: const Text("Clear"))
-            ,
-            TextButton(onPressed: 
-            (){
-              gameState.startGame();
-              Navigator.pushNamed(context, '/gameSession');
-            }, child: const Text("Start Gamge"))
+            const SizedBox(height: 10),
+            ElevatedButton(onPressed: clearUsers, child: const Text("Clear")),
+            const SizedBox(height: 10),
+            ElevatedButton(
+              onPressed: startGame,          
+              child: const Text("Start Game")
+            )
           ],
-        
         ));
   }
 
