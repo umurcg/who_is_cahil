@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:who_is_cahil/game_session_page.dart';
 import 'package:who_is_cahil/game_state.dart';
+import 'package:who_is_cahil/instruction_page.dart';
 import 'package:who_is_cahil/setup_page.dart';
 import 'dart:convert';
 import 'package:flutter/services.dart';
@@ -43,9 +44,11 @@ class MyApp extends StatelessWidget {
         initialRoute: '/',
         routes: {
           '/':(context) => const SetupPage(title: 'Setup Page'),
-          '/gameSession': (context) => const GameSessionPage()
+          '/gameSession': (context) => const GameSessionPage(),
+          '/instructionPage': (context) => const InstructionPage()
         },
       ),
     );
   }
 }
+
