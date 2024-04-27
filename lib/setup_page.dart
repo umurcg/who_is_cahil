@@ -39,15 +39,15 @@ class _SetupPageState extends State<SetupPage> {
     const buttonDelta=30.0;
 
     return Scaffold(
-        body: Padding(
+      body: Padding(
       padding: const EdgeInsets.only(top: 50.0),
       child: Column(
         children: [
           PlayerList(gameState: gameState),              
           const SizedBox(height: buttonDelta),
           ElevatedButton(onPressed: startGame, child: const Text("Start Local Game")),
-          const SizedBox(height: buttonDelta),
-          ElevatedButton(onPressed: startGame, child: const Text("Start Online Game")),
+          // const SizedBox(height: buttonDelta),
+          // ElevatedButton(onPressed: startGame, child: const Text("Start Online Game")),
           const SizedBox(height: buttonDelta),
           ElevatedButton(onPressed: openInstructions, child: const Text("Instructions")),
         ],

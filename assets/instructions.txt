@@ -1,0 +1,38 @@
+Game Title: Cahil Kim?
+Overview:
+"Who Is Cahil?" is a social party game where players must figure out which among them is the "ignorant" – the person who does not know the word that everyone else has been secretly shown. The game combines elements of bluffing, strategic thinking, and teamwork.
+
+Number of Players:
+3-8 players (The game works best with 5 or more players.)
+
+Game Setup:
+Start a New Game:
+One player opens the "Cahil Kim?" app and selects the option to create a new game.
+The game creator shares the generated game ID with all other players.
+Other players join the game using the provided game ID.
+Entering Player Names:
+Each player enters their name into the app on their device.
+Once all players have joined and entered their names, the game creator starts the game.
+How to Play:
+Word Assignment:
+The app randomly selects a word from its database and shows it to all players, except for one – the "ignorant."
+The ignorant player receives a screen that simply states, "You are Cahil," without showing the word.
+Taking Turns:
+Players take turns speaking a single sentence that hints at the word without being too obvious. The goal is to help others identify the ignorant without giving away the word directly.
+The ignorant tries to blend in, pretending to know the word by also crafting a plausible sentence based on others' hints.
+Guessing the Ignorant:
+After a few rounds of hints (typically once each player has spoken twice), players vote on who they believe is the ignorant.
+Votes are entered into the app, which then reveals who the ignorant player was and what the word was.
+Winning the Game:
+If the ignorant player avoids detection (receives the fewest votes), they win the game.
+If the ignorant is correctly identified, all other players win collectively.
+Additional Rules:
+No Repeating Sentences: Players must come up with unique hints each round.
+No Direct Definitions: Avoid giving direct definitions of the word.
+Time Limit: Optionally, set a time limit for each hint to keep the game pace lively.
+Game End:
+The game can continue with new rounds by selecting new words and assigning the role of ignorant to different players each time.
+Players can choose to end the game session after any number of rounds.
+Strategy Tips:
+For the Ignorant: Pay close attention to the hints given by others. Use this information to craft your sentences smartly to avoid detection.
+For Other Players: Be subtle with your hints. Being too obvious might help the ignorant guess the word.
